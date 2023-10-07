@@ -2802,7 +2802,7 @@ select {
   left: -2px;
   width: 101%;
   height: 101%;
-  background-image: url(../images/about-shape.webp);
+  background-image: url(../images/about-shape.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3038,13 +3038,13 @@ select {
   opacity: 1;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-image: url(../images/dots-1.svg);
+  background-image: url(../images/dots-2.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .services-active .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-image: url(../images/dots-2.svg);
+  background-image: url(../images/dots.png);
 }
 
 .services-background {
@@ -3097,7 +3097,7 @@ select {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/why-chose.webp);
+  background-image: url(../images/why-chose.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3167,7 +3167,7 @@ select {
 }
 
 .spa-pricing-table-wrapper {
-  background-color: #DDDCDC;
+  background-color: #ffffff;
   padding: 80px 50px 50px;
   border-radius: 30px;
   position: relative;
@@ -3203,7 +3203,7 @@ select {
 .spa-pricing-table-wrapper::before {
   position: absolute;
   content: "";
-  background-image: url(../images/price-overlay.webp);
+  background-image: url(../images/price-overlay.png);
   top: 0;
   left: 0;
   width: 100%;
@@ -3281,13 +3281,13 @@ select {
   opacity: 1;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-image: url(../images/dots-1.svg);
+  background-image: url(../images/dots-2.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .pricing-active .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-image: url(../images/dots-2.svg);
+  background-image: url(../images/dots.png);
 }
 
 /*--
@@ -3549,7 +3549,7 @@ select {
           transform: translateX(-50%);
   width: 110px;
   height: 76px;
-  background-image: url(../images/quote.webp);
+  background-image: url(../images/quote.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4104,7 +4104,7 @@ select {
 .single-team {
   border: 1px solid #96D9B1;
   border-radius: 17px;
-  background-color: rgb(255, 249, 245);
+  background-color: rgb(230, 230, 230);
   padding: 25px;
   text-align: center;
   margin-top: 50px;
@@ -4169,7 +4169,7 @@ select {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(../images/about-shape.webp);
+  background-image: url(../images/about-shape.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4178,10 +4178,10 @@ select {
   width: 100%;
 }
 .hot-ston-spa-image.spa-image-overlay::before {
-  background-image: url(../images/about-shape-2.webp);
+  background-image: url(../images/about-shape-2.png);
 }
 .hot-ston-spa-image.spa-image-overlay-02::before {
-  background-image: url(../images/about-shape-3.webp);
+  background-image: url(../images/about-shape-3.png);
 }
 
 @media only screen and (min-width: 1500px), only screen and (min-width: 1200px) and (max-width: 1499px) {
@@ -4211,7 +4211,7 @@ select {
   left: 0px;
   width: 20px;
   height: 20px;
-  background-image: url(../images/dots.webp);
+  background-image: url(../images/dots.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4379,13 +4379,13 @@ select {
   left: 0px;
   width: 20px;
   height: 20px;
-  background-image: url(../images/dots-2.webp);
+  background-image: url(../images/dots-2.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .single-package .package-body .package-list li.active::before {
-  background-image: url(../images/dots.webp);
+  background-image: url(../images/dots.png);
 }
 .single-package .package-footer {
   padding-top: 2px;
@@ -4516,7 +4516,7 @@ select {
   left: 0px;
   width: 20px;
   height: 20px;
-  background-image: url(../images/dots.webp);
+  background-image: url(../images/dots.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5485,7 +5485,7 @@ select {
   left: 0px;
   width: 20px;
   height: 20px;
-  background-image: url(../images/dots.webp);
+  background-image: url(../images/dots.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5504,7 +5504,7 @@ select {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/why-chose.webp);
+  background-image: url(../images/why-chose.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5809,7 +5809,7 @@ select {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/contact-shape.webp);
+  background-image: url(../images/contact-shape.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7154,7 +7154,7 @@ select {
 /*  07. Footer CSS
 /*----------------------------------------*/
 .footer-section {
-  background-color: #DDDCDC;
+  background-color: rgb(234, 234, 234);
   position: relative;
   z-index: 1;
 }
@@ -7166,7 +7166,7 @@ select {
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url(../images/footer-overlay.webp);
+  background-image: url(../images/footer-overlay.png);
   background-position: center center;
   background-size: cover;
   opacity: 0.05;
