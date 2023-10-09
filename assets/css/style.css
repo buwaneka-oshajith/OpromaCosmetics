@@ -2802,7 +2802,7 @@ select {
   left: -2px;
   width: 101%;
   height: 101%;
-  background-image: url(../images/about-shape.png);
+  background-image: url(../images/about-shape.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4169,7 +4169,7 @@ select {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(../images/about-shape.png);
+  background-image: url(../images/about-shape.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
