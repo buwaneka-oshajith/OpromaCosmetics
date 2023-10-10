@@ -1801,7 +1801,7 @@ select {
 /*----------------------------------------*/
 .header-area {
   padding: 0px 0;
-  background-color: rgba(3, 3, 3, 0.77);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -1857,10 +1857,10 @@ select {
   padding-right: 0;
 }
 .header-navbar .navbar-menu li a {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  color: #96D9B1;
+  color: #000000;
   display: inline-block;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2288,7 +2288,7 @@ select {
 
 .sticky {
   position: fixed;
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(255, 255, 255);
 }
 .sticky .header-navbar .navbar-menu li {
   padding: 25px 23px;
@@ -2323,7 +2323,7 @@ select {
 /*----------------------------------------*/
 .offcanvas {
   width: 300px;
-  background-color: #181e23;
+  background-color: #ffffff;
 }
 .offcanvas .logo img {
   width: 130px;
@@ -2368,7 +2368,7 @@ select {
   font-size: 15px;
   font-weight: 600;
   font-family: "Playfair Display", serif;
-  color: #96D9B1;
+  color: #000000;
 }
 .mobile-menu ul li .menu-expand {
   position: absolute;
@@ -2425,7 +2425,7 @@ select {
 /*  4.1 - Slider CSS
 /*----------------------------------------*/
 .single-slider {
-  height: 950px;
+  height: 750px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2700,7 +2700,7 @@ select {
   margin-top: -30px;
 }
 .features-wrapper .active .single-feature {
-  border-color: #96D9B1;
+  border-color: #FFF0;
   background-color: #DDDCDC;
   -webkit-box-shadow: 0px 21px 32px 0px rgba(0, 0, 0, 0.13);
           box-shadow: 0px 21px 32px 0px rgba(0, 0, 0, 0.13);
@@ -3487,19 +3487,7 @@ select {
     margin: 0 auto;
   }
 }
-.single-testimonial .testimonial-author::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/testimonial-shape.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-testimonial .testimonial-author img {
     width: 140px;
