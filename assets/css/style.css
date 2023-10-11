@@ -1022,7 +1022,7 @@ select {
   color: #181e23;
 }
 .btn-primary::before {
-  border-color: #ffffff;
+  border-color: #000000;
 }
 .btn-primary:focus, .btn-primary:active, .btn-primary:hover {
   background-color: #96D9B1;
@@ -1106,7 +1106,7 @@ select {
   color: #181e23;
 }
 .btn-light::before {
-  border-color: #ffffff;
+  border-color: #000000;
 }
 .btn-light:focus, .btn-light:active, .btn-light:hover {
   background-color: #f8f9fa;
@@ -1858,7 +1858,7 @@ select {
 }
 .header-navbar .navbar-menu li a {
   font-size: 17px;
-  font-family: "Playfair Display", serif;
+  font-family: "Helvetica Neue";
   font-weight: 700;
   color: #000000;
   display: inline-block;
@@ -2459,7 +2459,7 @@ select {
 .slider-content .title {
   font-size: 80px;
   font-weight: 700;
-  color: #96D9B1;
+  color: #ffffff;
   line-height: 1.16;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3842,7 +3842,7 @@ select {
 .page-banner-content .title {
   font-size: 80px;
   font-weight: 700;
-  color: #96D9B1;
+  color: #FFF;
   line-height: 1.16;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5848,7 +5848,7 @@ select {
 .faq-accordion .accordion-item {
   border-radius: 2px;
   margin-top: 20px;
-  border: 1px solid #ffe9da;
+  border: 1px solid #6f6f6f;
 }
 .faq-accordion .accordion-item button {
   display: block;
@@ -5862,7 +5862,7 @@ select {
   border: 0;
   color: #ffffff;
   background-color: #96D9B1;
-  border-bottom: 1px solid #ffe9da;
+  border-bottom: 1px solid black;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   position: relative;
