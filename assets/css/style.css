@@ -2425,7 +2425,7 @@ select {
 /*  4.1 - Slider CSS
 /*----------------------------------------*/
 .single-slider {
-  height: 750px;
+  height: 666px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7375,4 +7375,15 @@ select {
 .back-to-top:focus, .back-to-top:hover {
   color: #ffffff;
   background-color: #96D9B1;
+}
+
+/* video clip header section */
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
