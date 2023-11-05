@@ -7390,15 +7390,18 @@ select {
 
 /* About Tab sections */
 
-h2{
-  color:#000;
-  text-align:center;
-  font-size:2em;
-}
+
 .warpper{
+  
   display:flex;
   flex-direction: column;
   align-items: center;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap; /* Allow tabs to wrap to the next line when screen size reduces */
+  justify-content: center; /* Center-align the tabs horizontally */
 }
 .tab{
   cursor: pointer;
@@ -7409,6 +7412,7 @@ h2{
   color:#fff;
   border-radius:3px 3px 0px 0px;
   box-shadow: 0 0.5rem 0.8rem #00000080;
+  width: 150px;
 }
 .panels{
   background:#fffffff6;
@@ -7419,6 +7423,7 @@ h2{
   border-radius:3px;
   overflow:hidden;
   padding:20px;  
+ 
 }
 .panel{
   display:none;
@@ -7452,4 +7457,31 @@ h2{
   background:#fffffff6;
   color:#000;
   border-top: 3px solid #000;
+}
+/* Media query for screens 768px or smaller */
+@media (max-width: 768px) {
+  .tab {
+    margin: 3px 5px; /* Add more margin between tabs when screen size is reduced */
+  }
+}
+
+/* Add this CSS for the description */
+.single-team .description {
+  position: absolute;
+  bottom: 20px; /* Adjust the position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px; /* Adjust the width as needed */
+  height: 300px;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+.single-team:hover .description {
+  opacity: 1;
 }
