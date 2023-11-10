@@ -7482,8 +7482,9 @@ select {
   max-width:max-content;
   height: 100%;
   max-height: max-content;
-  text-align: center;
+  text-align: left;
   transition: opacity 0.3s;
+
 }
 
 .single-team:hover .description {
