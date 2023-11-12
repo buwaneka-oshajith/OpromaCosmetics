@@ -7615,4 +7615,15 @@ display: none;
 
 
 
-/* PARTNERS SECTION */
+/* LOGO SOCIAL SECTION */
+
+.slider-social li a {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Set the default color for the icons */
+  margin-right: 15px; /* Adjust the spacing between icons */
+}
+
+/* Customize the color for each social media icon */
+.fa-facebook-f { color: #3b5998; } /* Facebook blue */
+.fa-twitter { color: #1da1f2; } /* Twitter blue */
+.fa-instagram { color: #bc2a8d; } /* Instagram pink 
