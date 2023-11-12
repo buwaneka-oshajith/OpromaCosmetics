@@ -3242,9 +3242,11 @@ select {
   }
 }
 .single-price .line {
-  width: calc(100% - 250px);
+  width: calc(75px);
   height: 1px;
   background-color: #96D9B1;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media only screen and (max-width: 575px) {
   .single-price .line {
