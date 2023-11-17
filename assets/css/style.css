@@ -1883,7 +1883,7 @@ select {
   font-family: "FontAwesome";
   font-size: 16px;
   line-height: 20px;
-  color: #96D9B1;
+  color: #080808;
 }
 .header-navbar .navbar-menu li:hover > .sub-menu {
   opacity: 1;
@@ -2457,19 +2457,19 @@ select {
   padding-top: 70px;
 }
 .slider-content .title {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.16;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-content .title {
-    font-size: 70px;
+    font-size: 55px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-content .title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -2479,7 +2479,7 @@ select {
 }
 @media only screen and (max-width: 575px) {
   .slider-content .title {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 .slider-content .slider-meta {
