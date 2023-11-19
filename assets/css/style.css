@@ -1877,13 +1877,16 @@ select {
 .header-navbar .navbar-menu li .menu-icon {
   display: inline-block;
   margin-left: 5px;
+  color: #000000;
 }
 .header-navbar .navbar-menu li .menu-icon::after {
   content: "\f107";
   font-family: "FontAwesome";
   font-size: 16px;
   line-height: 20px;
-  color: #080808;
+  color: rgb(26, 151, 113);
+
+ 
 }
 .header-navbar .navbar-menu li:hover > .sub-menu {
   opacity: 1;
