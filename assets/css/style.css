@@ -3688,7 +3688,7 @@ select {
 .single-blog {
   border: 1px solid #96D9B1;
   border-radius: 20px;
-  background-color: rgb(255, 249, 245);
+  background-color: rgb(249, 255, 245);
   position: relative;
   padding: 30px;
   overflow: hidden;
