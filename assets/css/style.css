@@ -613,7 +613,7 @@ label {
 /*Input Field & Select*/
 input:not([type=submit]):not([type=checkbox]):not([type=radio]):not([type=file]):not([type=range]),
 textarea {
-  border: 1px solid #ffe9da;
+  border: 1px solid #999999;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #a9a8a8;
