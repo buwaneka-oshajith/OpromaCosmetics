@@ -3883,7 +3883,7 @@ select {
   font-size: 16px;
   font-weight: 400;
   font-family: "Playfair Display", serif;
-  color: #fdd9d4;
+  color: grey;
   position: relative;
 }
 .page-banner-content .breadcrumb li + li::before {
